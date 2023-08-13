@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+}
+
+.chat-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.message {
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #F5F5F5;
+}
+
+.user-message {
+    background-color: #DFF3E3;
+}
+
+.system-message {
+    color: #888;
+    font-style: italic;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
